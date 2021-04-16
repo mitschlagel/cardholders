@@ -39,7 +39,7 @@ const addPerson = function (p) {
 };
 
 
-const main = document.getElementById("main");
+const main = document.querySelector("main");
 
 const customerArray = [person, person2];
 for (let p of customerArray) {
