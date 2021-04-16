@@ -9,7 +9,7 @@ const person = new Cardholder(
     "NE",
     "68129",
     "4025551999",
-    "spencerjones@fnni.com"
+    "bilbobaggins@hobbit.com"
 );
 
 const person2 = new Cardholder(
@@ -20,7 +20,7 @@ const person2 = new Cardholder(
     "NE",
     "68321",
     "4025557823",
-    "katelyncherney@gmail.com"
+    "imacollosus@tenorsax.com"
 );
 
 const addPerson = function (p) {
