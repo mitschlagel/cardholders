@@ -2,24 +2,24 @@ import Cardholder from "./Cardholder.js";
 
 // Create people objects
 const person = new Cardholder(
-    "Jones",
-    "Spencer",
-    "2304 N. 69th St.",
+    "Baggins",
+    "Bilbo",
+    "1998 So. Spring Lane",
     "Omaha",
     "NE",
-    "68104",
-    "9183200506",
+    "68129",
+    "4025551999",
     "spencerjones@fnni.com"
 );
 
 const person2 = new Cardholder(
-    "Cherney",
-    "Katelyn",
-    "2304 N. 69th St.",
+    "Rollins",
+    "Sonny",
+    "12 Saint Thomas Drive",
     "Omaha",
     "NE",
-    "68104",
-    "4022166205",
+    "68321",
+    "4025557823",
     "katelyncherney@gmail.com"
 );
 
