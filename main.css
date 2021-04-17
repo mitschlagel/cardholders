@@ -2,11 +2,11 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.cardholder {
+.customer {
   padding: 20px;
   width: 50%;
 }
-.cardholderName {
+.customerName {
   background-color: antiquewhite;
   margin: 0;
   padding: 2px;

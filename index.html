@@ -5,16 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicing Concepts from FNBO Training</title>
-    <link rel="stylesheet" href="./main.css"></style>
-    <script type="module" src="./Cardholder.js" defer></script>
+    <link rel="stylesheet" href="./main.css" />
+    <script type="module" src="./Customer.js" defer></script>
     <script type="module" src="./script.js" defer></script>
   </head>
   <body>
-      <header>
-          <h1>Cardholder Information</h1>
-      </header>
-      <main>
+    <header>
+      <h1>Customer Information</h1>
+    </header>
+    <main>
+      <section class="newCustomerForm">
+        <form action="">
+          <div id="form-row-1">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
+          <div id="form-row-2">
+            <label for="street">Street</label>
+            <input type="text" name="street" id="street" />
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" />
+          </div>
+          <div id="form-row-3">
+            <label for="firstName">State</label>
+            <input type="text" name="state" id="state" />
+            <label for="zip">ZIP</label>
+            <input type="text" name="zip" id="zip" />
+          </div>
+          <div id="form-row-4">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" />
+          </div>
+          <div id="form-button">
+            <input type="submit" value="Submit" id="submit" />
+          </div>
+        </form>
+      </section>
 
-      </main>
+      <!-- Customer elements are appended here -->
+    </main>
   </body>
 </html>

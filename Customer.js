@@ -1,4 +1,4 @@
-class Cardholder {
+class Customer {
     constructor(
         lastName,
         firstName,
@@ -29,4 +29,4 @@ class Cardholder {
     }
 
 }
-export default Cardholder;
+export default Customer;
